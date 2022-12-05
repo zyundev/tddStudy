@@ -1,2 +1,3 @@
-# tddStudy
-TDD 기초 학습 (Junit5)
+# TDD 기초 학습 (Junit5)
+
+## 하루에 30분씩 투자할 예정
