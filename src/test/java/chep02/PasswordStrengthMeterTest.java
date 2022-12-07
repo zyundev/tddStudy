@@ -43,4 +43,20 @@ public class PasswordStrengthMeterTest {
         PasswordStrength result = meter.meter(password);
         assertEquals(expStr, result);
     }
+
+    /**
+     * 네번째 테스트
+     */
+    @Test
+    void nullInput_Then_Invalid() {
+        assertStrength(null, PasswordStrength.INVALID);
+    }
+
+    /**
+     * 다섯번째 테스트
+     */
+    @Test
+    void meetsOtherCriteria_except_for_Uppercase_Then_Normal() {
+        assertStrength("ab12!@df", PasswordStrength.NORMAL);
+    }
 }
