@@ -59,4 +59,28 @@ public class PasswordStrengthMeterTest {
     void meetsOtherCriteria_except_for_Uppercase_Then_Normal() {
         assertStrength("ab12!@df", PasswordStrength.NORMAL);
     }
+
+    /**
+     * 여섯번째 테스트
+     */
+    @Test
+    void meetsOnlyLengthCriteria_Then_Weak() {
+        assertStrength("abdefgre", PasswordStrength.WEAK);
+    }
+
+    /**
+     * 일곱번째 테스트
+     */
+    @Test
+    void meetsOnlyNumCriteria_Then_Weak() {
+        assertStrength("123456", PasswordStrength.WEAK);
+    }
+
+    /**
+     * 여덟번째 테스트
+     */
+    @Test
+    void meetsOnlyUpperCriteria_Then_Weak() {
+        assertStrength("NEEDTDD", PasswordStrength.WEAK);
+    }
 }

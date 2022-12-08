@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e0ac76bc-c2d6-4b34-903e-62da4961e05a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/chep02/PasswordStrength.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/chep02/PasswordStrength.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/chep02/PasswordStrengthMeter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/chep02/PasswordStrengthMeter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/chep02/PasswordStrengthMeterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/chep02/PasswordStrengthMeterTest.java" afterDir="false" />
     </list>
@@ -47,7 +46,7 @@
       <recent name="C:\tddStudy\src\test\java\chep02" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PasswordStrengthMeterTest.meetsOtherCriteria_except_for_Uppercase_Then_Normal">
+  <component name="RunManager" selected="JUnit.PasswordStrengthMeterTest.meetsOnlyUpperCriteria_Then_Weak">
     <configuration name="PasswordStrengthMeterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tddStudy" />
       <extension name="coverage">
@@ -63,7 +62,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PasswordStrengthMeterTest.meetsAllCriteria_Then_Strong" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PasswordStrengthMeterTest.meetsOnlyLengthCriteria_Then_Weak" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tddStudy" />
       <extension name="coverage">
         <pattern>
@@ -73,7 +72,39 @@
       </extension>
       <option name="PACKAGE_NAME" value="chep02" />
       <option name="MAIN_CLASS_NAME" value="chep02.PasswordStrengthMeterTest" />
-      <option name="METHOD_NAME" value="meetsAllCriteria_Then_Strong" />
+      <option name="METHOD_NAME" value="meetsOnlyLengthCriteria_Then_Weak" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PasswordStrengthMeterTest.meetsOnlyNumCriteria_Then_Weak" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tddStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chep02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="chep02" />
+      <option name="MAIN_CLASS_NAME" value="chep02.PasswordStrengthMeterTest" />
+      <option name="METHOD_NAME" value="meetsOnlyNumCriteria_Then_Weak" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PasswordStrengthMeterTest.meetsOnlyUpperCriteria_Then_Weak" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tddStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chep02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="chep02" />
+      <option name="MAIN_CLASS_NAME" value="chep02.PasswordStrengthMeterTest" />
+      <option name="METHOD_NAME" value="meetsOnlyUpperCriteria_Then_Weak" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -95,45 +126,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PasswordStrengthMeterTest.meetsOtherCriteria_except_for_number_Then_Normal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tddStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chep02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="chep02" />
-      <option name="MAIN_CLASS_NAME" value="chep02.PasswordStrengthMeterTest" />
-      <option name="METHOD_NAME" value="meetsOtherCriteria_except_for_number_Then_Normal" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PasswordStrengthMeterTest.nullInput_Then_Invalid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tddStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chep02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="chep02" />
-      <option name="MAIN_CLASS_NAME" value="chep02.PasswordStrengthMeterTest" />
-      <option name="METHOD_NAME" value="nullInput_Then_Invalid" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PasswordStrengthMeterTest.meetsOnlyUpperCriteria_Then_Weak" />
+        <item itemvalue="JUnit.PasswordStrengthMeterTest.meetsOnlyNumCriteria_Then_Weak" />
+        <item itemvalue="JUnit.PasswordStrengthMeterTest.meetsOnlyLengthCriteria_Then_Weak" />
         <item itemvalue="JUnit.PasswordStrengthMeterTest.meetsOtherCriteria_except_for_Uppercase_Then_Normal" />
         <item itemvalue="JUnit.PasswordStrengthMeterTest" />
-        <item itemvalue="JUnit.PasswordStrengthMeterTest.nullInput_Then_Invalid" />
-        <item itemvalue="JUnit.PasswordStrengthMeterTest.meetsOtherCriteria_except_for_number_Then_Normal" />
-        <item itemvalue="JUnit.PasswordStrengthMeterTest.meetsAllCriteria_Then_Strong" />
       </list>
     </recent_temporary>
   </component>
@@ -147,7 +146,8 @@
       <updated>1670239876434</updated>
       <workItem from="1670239877713" duration="671000" />
       <workItem from="1670325332995" duration="2072000" />
-      <workItem from="1670411993199" duration="498000" />
+      <workItem from="1670411993199" duration="949000" />
+      <workItem from="1670499539237" duration="738000" />
     </task>
     <servers />
   </component>
