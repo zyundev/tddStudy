@@ -5,12 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0ac76bc-c2d6-4b34-903e-62da4961e05a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/chep03/ExpiryDateCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -30,7 +38,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/tddStudy/src/main/java/org/example/passwordCheck",
+    "last_opened_file_path": "C:/tddStudy",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Problems",
     "project.structure.proportion": "0.0",
@@ -48,7 +56,23 @@
       <recent name="C:\tddStudy\src\test\java\chep02" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PasswordStrengthMeterTest.meetsOnlyLengthCriteria_Then_Weak (1)">
+  <component name="RunManager" selected="JUnit.ExpiryDateCalculatorTest.pay_10000_won">
+    <configuration name="ExpiryDateCalculatorTest.pay_10000_won" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tddStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chep03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="chep03" />
+      <option name="MAIN_CLASS_NAME" value="chep03.ExpiryDateCalculatorTest" />
+      <option name="METHOD_NAME" value="pay_10000_won" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PasswordStrengthMeterTest.meetsOnlyLengthCriteria_Then_Weak (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tddStudy" />
       <extension name="coverage">
@@ -113,29 +137,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PasswordStrengthMeterTest.meetsOtherCriteria_except_for_Uppercase_Then_Normal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tddStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chep02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="chep02" />
-      <option name="MAIN_CLASS_NAME" value="chep02.PasswordStrengthMeterTest" />
-      <option name="METHOD_NAME" value="meetsOtherCriteria_except_for_Uppercase_Then_Normal" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ExpiryDateCalculatorTest.pay_10000_won" />
         <item itemvalue="JUnit.PasswordStrengthMeterTest.meetsOnlyLengthCriteria_Then_Weak (1)" />
         <item itemvalue="JUnit.PasswordStrengthMeterTest.meetsOnlyUpperCriteria_Then_Weak" />
         <item itemvalue="JUnit.PasswordStrengthMeterTest.meetsOnlyNumCriteria_Then_Weak" />
         <item itemvalue="JUnit.PasswordStrengthMeterTest.meetsOnlyLengthCriteria_Then_Weak" />
-        <item itemvalue="JUnit.PasswordStrengthMeterTest.meetsOtherCriteria_except_for_Uppercase_Then_Normal" />
       </list>
     </recent_temporary>
   </component>
@@ -151,7 +159,9 @@
       <workItem from="1670325332995" duration="2072000" />
       <workItem from="1670411993199" duration="949000" />
       <workItem from="1670499539237" duration="1048000" />
-      <workItem from="1670588472611" duration="933000" />
+      <workItem from="1670588472611" duration="1218000" />
+      <workItem from="1670628963618" duration="1823000" />
+      <workItem from="1670843261751" duration="502000" />
     </task>
     <servers />
   </component>
