@@ -20,3 +20,36 @@ void pay_10000_won() {
     assertEquals(LocalDate.of(2022,4,1), expireDate);
 }
 ```
+```java
+public class ExpiryDateCalculator {
+    public LocalDate calculateExpiryDate(LocalDate billingDate, int payAmount) {
+        return LocalDate.of(2022,4,1);
+    }
+}
+```
+
+### 예를 추가하면서 구현을 일반화
+```java
+//만원 납부하는데 한달 뒤 만료되는 테스트 2
+@Test
+void pay_10000_won() {
+     LocalDate bilingDate = LocalDate.of(2022,3,1);
+     int payAmount = 10000;
+     ExpiryDateCalculator expiryDateCalculator = new ExpiryDateCalculator();
+     LocalDate expireDate = expiryDateCalculator.calculateExpiryDate(bilingDate, payAmount);
+     assertEquals(LocalDate.of(2022,4,1), expireDate);
+
+     LocalDate bilingDate2 = LocalDate.of(2022,5,1);
+     int payAmount2 = 10000;
+     ExpiryDateCalculator expiryDateCalculator2 = new ExpiryDateCalculator();
+     LocalDate expireDate2 = expiryDateCalculator2.calculateExpiryDate(bilingDate2, payAmount2);
+     assertEquals(LocalDate.of(2022,6,1), expireDate2);
+}
+```
+```java
+public class ExpiryDateCalculator {
+    public LocalDate calculateExpiryDate(LocalDate billingDate, int payAmount) {
+        return billingDate.plusMonths(1);
+    }
+}
+```
